@@ -14,7 +14,7 @@
 
 ### MSc Projects 
 
-[Lyrics Space Odyssey - Lyric Visualization of the Million Song Dataset](/sample_page)
+[Lyrics Space Odyssey - Lyric Visualization of the Million Song Dataset](/lyrics-space-odyssey)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
