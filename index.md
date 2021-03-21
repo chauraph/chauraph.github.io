@@ -12,18 +12,10 @@
 
 ---
 
-### MSc Projects 
+### MSc Digital Humanities Projects 
 
 [Lyrics Space Odyssey - Lyric Visualization of the Million Song Dataset](/project/lyrics-space-odyssey)
 <img src="project/lyrics-space-odyssey/cover.png?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
