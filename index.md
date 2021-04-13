@@ -17,16 +17,16 @@
 [Lyrics Space Odyssey - Visualization of the Million Song Dataset Lyrics](/project/lyrics-space-odyssey)
 <sub><sup>with Fengan Li, Hugo Enrique Montaño Castillo, Lars Magne Tungland, Martina Verna and Xin Wang</sup></sub>
 
-<span class="Label bg-blue">data fusion</span>
-<span class="Label bg-blue">big data</span>
-<span class="Label bg-blue">data visualization</span>
-<span class="Label bg-blue">interaction design</span>
+<span class="label label-primary">data fusion</span>
+<span class="label label-primary">big data</span>
+<span class="label label-primary">data visualization</span>
+<span class="label label-primary">interaction design</span>
 <img src="project/lyrics-space-odyssey/cover.png?raw=true"/>
 
 [Paper Swordsmen in the Web - Ontological Encoding of Wuxia Fiction Universe](/project/paper-swordsmen-in-the-web)
 
-<span class="Label bg-blue">ontology engineering</span>
-<span class="Label bg-blue">RDFS</span>
+<span class="label label-primary">ontology engineering</span>
+<span class="label label-primary">RDFS</span>
 <img src="project/paper-swordsmen-in-the-web/cover.png?raw=true"/>
 
 ---
