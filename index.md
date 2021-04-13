@@ -15,7 +15,6 @@
 ### MSc Digital Humanities Projects 
 <br>
 [Lyrics Space Odyssey - Visualization of the Million Song Dataset Lyrics](/project/lyrics-space-odyssey)
-
 <span class="label label-primary">data fusion</span>
 <span class="label label-primary">big data</span>
 <span class="label label-primary">data visualization</span>
