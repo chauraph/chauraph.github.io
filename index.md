@@ -15,7 +15,6 @@
 ### MSc Digital Humanities Projects 
 <br>
 [Lyrics Space Odyssey - Visualization of the Million Song Dataset Lyrics](/project/lyrics-space-odyssey)
-<sub><sup>with Fengan Li, Hugo Enrique Montaño Castillo, Lars Magne Tungland, Martina Verna and Xin Wang</sup></sub>
 
 <span class="label label-primary">data fusion</span>
 <span class="label label-primary">big data</span>
