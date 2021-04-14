@@ -7,9 +7,9 @@ The Million Song Dataset is a freely available collection of audio features and 
 
 The final narrative is divided into three conceptual chapters: **Describe**, **Explore**, **Create**.
 
-### 1. Describe
+## 1. Describe
 
-#### Lyrics and Word Co-occurrence Networks
+### Lyrics and Word Co-occurrence Networks
 
 A Gephi networks that present an introductory overview, showing a galaxy of edges and nodes: the audience here detects color clusters and perceives the complexity of the data, so that they wants to know more about them.
 
