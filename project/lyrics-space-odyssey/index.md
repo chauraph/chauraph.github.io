@@ -18,7 +18,7 @@ In the lyrics network, each nodes represent a song and an edge is encoded to rep
 
 <img src="1.png?raw=true"/>
  
-AWS and a Gephi instance are used to compute a network graph of million songs.
+AWS is employed to launch a Gephi instance for computing a network graph of million songs.
 ```javascript
 if (isAwesome){
   return true
