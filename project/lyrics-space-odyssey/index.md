@@ -19,11 +19,40 @@ In the lyrics network, each nodes represent a song and an edge is encoded to rep
 <img src="1.png?raw=true"/>
  
 AWS is employed to launch a Gephi instance for computing a network graph of million songs.
-```javascript
-if (isAwesome){
-  return true
-}
-```
+
+Moving onto the **Explore** section, the audience experience a descent from the galaxy of songs into songs and words level.
+
+## 2. Explore
+---
+### Co-occurrence Packed Bubbles
+
+The main principle behind this visualization is to display information at a glance. It aims at precise and intuitive presentation of the data.
+
+#### General Display
+
+This dashboard consists of two packed bubbles charts. On the left, there is a bag of words (BOW) where the words-to-explore are kept. On the left, there is a second packed bubbles chart which shows the co-occurrences of a selected word in the BOW. Each bubble is encoded with three variables consistent throughout the visualization: 
+1) color : the most frequent music genre for a word
+2) size : the popularity/uniqueness of a word, which is represented by computing tf-idf weight of a word
+3) text : the word
+
+<img src="2.png?raw=true"/>
+
+#### Color Concern
+
+The categorization of the words is encoded with different colors. The color palette responds to the distribution of words. Our analysis revealed that Rap was the genre with the biggest number of words, followed by R&B. And most importantly, these words were often used in all songs. Thus, Rap and R&B are encoded with low saturated colors: light grey and light blue, respectively. The opposite was done for the genres with a small number of words, for instance Blues and Jazz. These genres were encoded with highly saturated colors. The objective was to avoid scenarios like the one in the figure below, where Rap and R&B could lead to big areas of saturated color.
+
+<img src="3.png?raw=true"/>
+
+### Exemplar Song Analysis
+
+This dashboard also follows the purpose of providing information at a glance. But now, regarding a song’s lyrics. In addition, a new concept is introduced: the egocentricity of a song.
+
+#### General Display
+
+This dashboard is built around two parts. On the left there is a packed bubbles chart like the one detailed in the previous section. The novelty is the use of a scatter plot to measure the egocentricity of a song.
+
+<img src="4.png?raw=true"/>
+
 
 ### 2. Assess assumptions on which statistical inference will be based
 
