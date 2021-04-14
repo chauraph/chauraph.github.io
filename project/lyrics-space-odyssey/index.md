@@ -1,4 +1,5 @@
 ## Lyrics Space Odyssey
+---
 <sup>with Fengan Li, Hugo Enrique Montaño Castillo, Lars Magne Tungland, Martina Verna and Xin Wang</sup>
 
 *Lyrics Space Odyssey* is a data storytelling project exploring the Million Song Dataset. It is composed of a series of visualizations, which all contribute to displaying different – but complementary - aspects of the same data. The project's objective is to provide a platform for audiences to explore the relationship between word choice of a lyric, song genre and popularity. In the end, audiences are given full autonomy to utilize the interactive exploratory tool for composing their own.
@@ -8,7 +9,7 @@ The Million Song Dataset is a freely available collection of audio features and 
 The final narrative is divided into three conceptual chapters: **Describe**, **Explore**, **Create**.
 
 ## 1. Describe
-
+---
 ### Lyrics and Word Co-occurrence Networks
 
 A Gephi networks that present an introductory overview, showing a galaxy of edges and nodes: the audience here detects color clusters and perceives the complexity of the data, so that they wants to know more about them.
