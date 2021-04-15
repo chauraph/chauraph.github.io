@@ -2,7 +2,7 @@
 ---
 <sup>with Fengan Li, Hugo Enrique Montaño Castillo, Lars Magne Tungland, Martina Verna and Xin Wang</sup>
 
-*Lyrics Space Odyssey* is a data storytelling project exploring the Million Song Dataset. It is composed of a series of visualizations, which all contribute to displaying different – but complementary - aspects of the same data. The project's objective is to provide a platform for audiences to explore the relationship between word choice of a lyric, song genre and popularity. In the end, audiences are given full autonomy to utilize the interactive exploratory tool for composing their own.
+*Lyrics Space Odyssey* is a data storytelling project exploring the Million Song Dataset. It is composed of a series of visualizations, which all contribute to displaying different – but complementary - aspects of the same data. The project's objective is to provide a platform for users to explore the relationship between word choice of a lyric, song genre and popularity. In the end, users are given full autonomy to utilize the interactive exploratory tool for composing their own.
 
 The Million Song Dataset is a freely available collection of audio features and metadata consisting of one million contemporary popular music tracks. As the Million Song Dataset core does not include metadata for genre and lyric, data fusion is completed with Tableau Prep to augment the target data from the MusixMatch Dataset and TagTraum Dataset.
 
@@ -12,7 +12,7 @@ The final narrative is divided into three conceptual chapters: **Describe**, **E
 ---
 ### Lyrics and Word Co-occurrence Networks
 
-A Gephi networks that present an introductory overview, showing a galaxy of edges and nodes: the audience here detects color clusters and perceives the complexity of the data, so that they wants to know more about them.
+A Gephi networks that present an introductory overview, showing a galaxy of edges and nodes: the user here detects color clusters and perceives the complexity of the data, so that they wants to know more about them.
 
 In the lyrics network, each nodes represent a song and an edge is encoded to represent two songs that have over 30% of vocabularies overlapped in their lyrics. The lyrics network is constructed in the light of genres, which shows interesting insight: rap (orange) stands out with a unique vocabulary field. 
 
@@ -20,7 +20,7 @@ In the lyrics network, each nodes represent a song and an edge is encoded to rep
  
 AWS is employed to launch a Gephi instance for computing a network graph of million songs.
 
-Moving onto the **Explore** section, the audience experience a descent from the galaxy of songs into songs and words level.
+Moving onto the **Explore** section, the user experience a descent from the galaxy of songs into songs and words level.
 
 ## 2. Explore
 ---
@@ -66,6 +66,41 @@ This dashboard emphasizes the aim of giving insights at a glance. This time the 
 This dashboard is an elaborated version on the ego chart described before. Instead of positioning a unique song, in this chart the user discovers the ego positioning of a music genre as a whole. For this purpose, more variables were added to the basic ego chart: music genre, year, and number of songs for each year. To control the display of data, some filters were added: one for the genre and one for the years.
 
 <img src="5.png?raw=true"/>
+
+#### Shape
+
+To keep the theme in the exploratory chapter, the shapes in this scatter plot are circles. This capitalizes on the pre-attentive processing from the previous visualizations. The user remains clustering circles of same color. But in contrast to the previous charts, now they finds a circle for each year-genre combination.
+
+#### Size
+
+The major novelty in this chart is the association of the circles’ size to the number of songs. 
+
+#### Interaction
+
+There are two filters for the exploration of the different genres. The filter controlling the years is a sliding filter, this allows for an easy selection of different ranges of years. For controlling the display of specific genres there is a selectable list. This allows a controlled selection of the genres; the user can easily see which genres are currently displayed and which ones are omitted.
+
+<img src="6.png?raw=true"/>
+
+## 3. Create
+---
+### Create Your Own Lyrics
+
+An exploration environment and a lyrics creation application
+
+#### Design Concern
+
+The guiding principle is to find a balance between level of details and cognitive burden to a user. New knowledge a user needs to acquire when using the tool includes, parts of speech (POS), song genre, popularity-uniqueness, and the connection metaphor. Thus, a considerable effort has been devoted to simplifying UI/UX to encourage the user to ‘explore and create’.
+
+#### General Display
+
+1.	Mega Bubble Chart: Located on the left of the dashboard, it renders all the word appeared in the Million Songs Dataset. User can see the detail of a word bubble via tooltip and choose a word of interest by clicking it.
+
+2.	Connection Bubble Chart: Located on the right of the dashboard, it renders the chosen word and its connected words.
+
+<img src="7.png?raw=true"/>
+
+
+
 
 
 ### 2. Assess assumptions on which statistical inference will be based
