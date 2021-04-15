@@ -51,11 +51,11 @@ This dashboard also follows the purpose of providing information at a glance. Bu
 
 This dashboard is built around two parts. On the left there is a packed bubbles chart like the one detailed in the previous section, representing the co-occurrences of words within a song. On the right, there is the scatter plot meter measuring the egocentricity of a song.
 
+<img src="4.png?raw=true"/>
+
 #### Egocentricity Meter
 
 Allows the precise representation of an otherwise too abstract variable: pronoun usage. In our visualization each axis encodes a dimension of egocentrism. Horizontally, the relation between the first (I) and second (You) person singular. Vertically, the first person possessive, object pronoun and its plurals (me, my, we, our, us) compared with the second person possessive and third person singulars, plurals, possessives and object pronouns (your, he, his, him, she, her, they, their, them) . The more dominant a pronoun (or pronouns for the vertical axis), the further placement from the center.
-
-<img src="4.png?raw=true"/>
 
 ### Yearly Ego Position
 
