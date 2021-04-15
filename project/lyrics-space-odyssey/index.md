@@ -89,7 +89,7 @@ An exploration environment and a lyrics creation application
 
 #### Design Concern
 
-The guiding principle is to find a balance between level of details and cognitive burden to a user. New knowledge a user needs to acquire when using the tool includes, parts of speech (POS), song genre, popularity-uniqueness, and the connection metaphor. Thus, a considerable effort has been devoted to simplifying UI/UX to encourage the user to ‘explore and create’.
+The guiding principle is to find a balance between level of details and cognitive burden to a user. New knowledge a user needs to acquire when using the application includes, parts of speech (POS), song genre, popularity-uniqueness, and the connection metaphor. Thus, a considerable effort has been devoted to simplifying UI/UX to encourage the user to ‘explore and create’.
 
 #### General Display
 
@@ -99,24 +99,50 @@ The guiding principle is to find a balance between level of details and cognitiv
 
 <img src="7.png?raw=true"/>
 
+#### Wildcard Filtering
 
+User is allowed to search a word from the mega bubble chart to explore word connection. Wildcard filtering is used in which a user may feel that he/she is progressively navigating in the word bubbles. This is to immerse the user in the meta-narrative of ‘Lyrics Space Odyssey’.
 
+<img src="8.png?raw=true"/>
 
+#### Relation between nodes
 
-### 2. Assess assumptions on which statistical inference will be based
+The bubble chart is a representation of a ‘origin-edge’ relation in which the chosen word is the departure point (origin) and the connected words are edges. The relation is realized by always positioning the chosen word (colored in navy blue) at the center.
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+<img src="9.png?raw=true"/>
 
-### 3. Support the selection of appropriate statistical tools and techniques
+#### Exploring Word Connection
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Clicking any word bubble in the dashboard will trigger the connection bubble chart to display its word connections. To encourage users to explore word connections, the interaction is designed to be as fluid as possible. The main issue is that it is easy for users to lose their whereabout after exploring a few rounds
 
-### 4. Provide a basis for further data collection through surveys or experiments
+The problem is addressed by taking advantage of pre-attentive processing. First, we added the chosen word in the connection bubble chart and colored it in navy blue. It is based on the fact that our brain can quickly detect object with distinctive coloring. Second, we instructed Tableau to always position the chosen word at the center. It is based on the cultural phenomenon that centrality tends to have a special status. Third, we made use of the highlighting function. Once a user selects another word to trigger the re-render of the connection bubble chart, the newly chosen word will be highlighted. We discovered that our brain can quickly learn the paradigm and the connection bubble chart is made self-explanatory. The value of this more fluid version is that it encourages the user to make more connection exploration. This aligns will our meta-narrative of ‘lyric space odyssey’.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+<img src="10.png?raw=true"/>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### Panning Popularity-Uniqueness
+
+User can to pan across the Popularity-Uniqueness spectrum with a toggle and learn the relative popularity or uniqueness of the chosen word by comparing with its connected word.
+
+<img src="11.png?raw=true"/>
+
+#### Lyric Composer, Genre Switch
+
+User can use the lyric composer to compose lyric. Action available includes add word, backspace and reset. Lyric composer is a Node.js app embed as a web object in Tableau Dashboard. Word collected in the lyric composer can be retrieved again as a data source of Tableau. Additional analysis of the created lyric is possible though it is not implemented in the scope of this project.
+
+Genre switch allow user to navigate to the word connections of songs from another genre. By default, clicking a word bubble will show the word connections in the reprehensive genre of the chosen word.
+
+<img src="12.png?raw=true"/>
+
+### Hot Song Titles Chord Diagram
+
+Assist users to name hit song title with inspiration from the hottest existing songs.
+
+#### General Display
+
+Each node represents a word which is used in a song title. Each edge represents a pair of words which are used together in a song title. The size of each node represents the relatively popularity of the word. The magnitude of the linkage (occurrences of each word pair in all song titles) is shown as a tooltip.
+
+<img src="13.png?raw=true"/>
+
+#### Hotties and Notties
+
+Two chord diagrams representing hot song titles and bottom-ranked song titles are presented to the user. By starting from one word and following the arcs to the next and the next, users can build new song titles.
