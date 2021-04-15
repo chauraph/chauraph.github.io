@@ -30,7 +30,7 @@ The main principle behind this visualization is to display information at a glan
 
 #### General Display
 
-This dashboard consists of two packed bubbles charts. On the left, there is a bag of words (BOW) where the words-to-explore are kept. On the left, there is a second packed bubbles chart which shows the co-occurrences of a selected word in the BOW. Each bubble is encoded with three variables consistent throughout the visualization: 
+This dashboard consists of two packed bubbles charts. On the left, there is a bag of words (BOW) where the words-to-explore are kept. On the right, there is a second packed bubbles chart which shows the co-occurrences of a selected word in the BOW. Each bubble is encoded with three variables consistent throughout the visualization: 
 1) color : the most frequent music genre for a word
 2) size : the popularity/uniqueness of a word, which is represented by computing tf-idf weight of a word
 3) text : the word
@@ -49,9 +49,23 @@ This dashboard also follows the purpose of providing information at a glance. Bu
 
 #### General Display
 
-This dashboard is built around two parts. On the left there is a packed bubbles chart like the one detailed in the previous section. The novelty is the use of a scatter plot to measure the egocentricity of a song.
+This dashboard is built around two parts. On the left there is a packed bubbles chart like the one detailed in the previous section, representing the co-occurrences of words within a song. On the right, there is the scatter plot meter measuring the egocentricity of a song.
+
+#### Egocentricity Meter
+
+Allows the precise representation of an otherwise too abstract variable: pronoun usage. In our visualization each axis encodes a dimension of egocentrism. Horizontally, the relation between the first (I) and second (You) person singular. Vertically, the first person possessive, object pronoun and its plurals (me, my, we, our, us) compared with the second person possessive and third person singulars, plurals, possessives and object pronouns (your, he, his, him, she, her, they, their, them) . The more dominant a pronoun (or pronouns for the vertical axis), the further placement from the center.
 
 <img src="4.png?raw=true"/>
+
+### Yearly Ego Position
+
+This dashboard emphasizes the aim of giving insights at a glance. This time the main objective is to contrast the egocentricity of the different music genres.
+
+#### General Display
+
+This dashboard is an elaborated version on the ego chart described before. Instead of positioning a unique song, in this chart the user discovers the ego positioning of a music genre as a whole. For this purpose, more variables were added to the basic ego chart: music genre, year, and number of songs for each year. To control the display of data, some filters were added: one for the genre and one for the years.
+
+<img src="5.png?raw=true"/>
 
 
 ### 2. Assess assumptions on which statistical inference will be based
