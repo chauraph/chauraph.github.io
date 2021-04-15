@@ -31,9 +31,12 @@ The main principle behind this visualization is to display information at a glan
 #### General Display
 
 This dashboard consists of two packed bubbles charts. On the left, there is a bag of words (BOW) where the words-to-explore are kept. On the right, there is a second packed bubbles chart which shows the co-occurrences of a selected word in the BOW. Each bubble is encoded with three variables consistent throughout the visualization: 
-1) color : the most frequent music genre for a word
-2) size : the popularity/uniqueness of a word, which is represented by computing tf-idf weight of a word
-3) text : the word
+
+1. color : the most frequent music genre for a word
+
+2. size : the popularity/uniqueness of a word, which is represented by computing tf-idf weight of a word
+
+3. text : the word
 
 <img src="2.png?raw=true"/>
 
