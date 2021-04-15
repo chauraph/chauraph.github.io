@@ -104,7 +104,7 @@ The guiding principle is to find a balance between level of details and cognitiv
 
 #### Wildcard Filtering
 
-User is allowed to search a word from the mega bubble chart to explore word connection. Wildcard filtering is used in which a user may feel that he/she is progressively navigating in the word bubbles. This is to immerse the user in the meta-narrative of ‘Lyrics Space Odyssey’.
+User is allowed to search a word from the mega bubble chart to explore word connection. Wildcard filtering is used in which a user may feel that they are progressively navigating in the word bubbles. This is to immerse the user in the meta-narrative of ‘Lyrics Space Odyssey’.
 
 <img src="8.png?raw=true"/>
 
