@@ -35,19 +35,39 @@ Two major sources of material are consulted for domain analysis.
 
 1. The author of this paper who is also a fan of Jin Yong’s wuxia fiction. The author is particularly familiar with the *Condor Trilogy*, *Demi- Gods and Semi-Devils*, and *The Smiling, Proud Wanderer*.
 
-2. Fan-driven sites, wikis, and databases as well as the relevant Wikipedia and Wikidata pages. These sources provided very good and ready-made classification (such as place, martial art types, and characters), description, and English translation of narrative elements with examples.
+2. Fan-driven sites, wikis, and databases as well as the relevant Wikipedia and Wikidata pages. These sources provided excellent ready-made classification (such as place, martial art types, and characters), description, and English translation of narrative elements with examples.
 
 ### Encoding
 
 The result of domain analysis is then translated and entered into spreadsheet set out by Branch et al. Hundreds of classes and properties are created and subjected to comparison with the vocabularies in TFWO.
 
-During the comparison process, nuances and differences between wuxia fiction elements and TFWO vocabularies are documented with the concept from SKOS, namely board match, exact match, narrower match, related match, and close match.
+During the comparison process, nuances and differences between wuxia fiction elements and TFWO vocabularies are documented with the concept from SKOS (Simple Knowledge Organization System), namely board match, exact match, narrower match, related match, and close match.
 
 ### RDFS Conversion Test
 
-After the coding stage, the theoretical data model is experimented in Protégé.
+After the coding stage, the theoretical data model is experimented in [Protégé](https://protege.stanford.edu/).
 
-## Key Finding
+### Encoding Concern
+
+To aggregate fictional worlds across culture and medium, the encoding sought to instantiate culturally specific terms with generic concept. (e.g. Yin and Yang as an individual / instance of Negative and Positive Energy)
+
+## Result
 ---
 
-### 
+### Encoding Example
+
+<img src="1.jpg?raw=true"/>
+
+Representation of *Heaven and Earth Great Shift* (fictional martial art skill).
+
+<img src="2.jpg?raw=true"/>
+
+Representation of *Five Elements Fists* (martial art skill created using an alternate version of real thing).
+
+<img src="3.jpg?raw=true"/>
+
+Crosslinking fictional universe by a proxy parent class *Air*. The *Force* in Star Wars has been viewed as an inspiration of the martial art *Qi* in many *fans interpretation*.
+
+<img src="4.jpg?raw=true"/>
+
+Representation of copyright and authorship metadata of Jin Yong's fictional universe. 
