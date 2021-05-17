@@ -56,24 +56,22 @@ To aggregate fictional worlds across culture and medium, the encoding sought to 
 
 ### Encoding Example
 
-<img src="1.jpg?raw=true"/>
+[![Image](1.jpg)](1.jpg)
 
 Representation of *Heaven and Earth Great Shift* (fictional martial art skill).
 
-<img src="2.jpg?raw=true"/>
+[![Image](2.jpg)](2.jpg)
 
 Representation of *Five Elements Fists* (martial art skill created using an alternate version of real thing).
 
-<img src="3.jpg?raw=true"/>
+[![Image](3.jpg)](3.jpg)
 
 Crosslinking fictional universe by a proxy parent class *Air*. The *Force* in Star Wars has been viewed as an inspiration of the martial art *Qi* in many *fans interpretation*.
 
-<img src="4.jpg?raw=true"/>
+[![Image](4.jpg)](4.jpg)
 
 Representation of copyright and authorship metadata of Jin Yong's fictional universe. 
 
 [![Image](5.jpg)](5.jpg)
-
-<img src="5.jpg?raw=true"/>
 
 Knowledge graph expanded from intercultural lovers Zhang Wuji (Han Chinese) and Zhao Min (Mongol). The graph positioned elements according to the geolocation of  'real things': To the west: Persian cluster. To the North: Mongol cluster. To the South: Han cluster.
