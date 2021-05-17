@@ -72,6 +72,8 @@ Crosslinking fictional universe by a proxy parent class *Air*. The *Force* in St
 
 Representation of copyright and authorship metadata of Jin Yong's fictional universe. 
 
+[![Image](5.jpg)](5.jpg)
+
 <img src="5.jpg?raw=true"/>
 
 Knowledge graph expanded from intercultural lovers Zhang Wuji (Han Chinese) and Zhao Min (Mongol). The graph positioned elements according to the geolocation of  'real things': To the west: Persian cluster. To the North: Mongol cluster. To the South: Han cluster.
